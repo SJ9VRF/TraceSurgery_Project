@@ -1,0 +1,21 @@
+study_id: tracesurgery_external_pilot_v1
+task_ids:
+  - replace_with_real_benchmark_task_id_001
+  - replace_with_real_benchmark_task_id_002
+models:
+  - id: model_a
+    provider: external_provider
+    model: exact_model_name
+    adapter: your_package.adapters:ProviderAdapter
+    notes:
+      freeze_revision: true
+environments:
+  - id: real_env_a
+    adapter: your_package.environments:EnvironmentAdapter
+    benchmark: exact_benchmark_name
+    version: exact_benchmark_revision
+seeds: [0, 1, 2]
+repetitions: 1
+preregistration: docs/PREREGISTRATION.md
+notes:
+  purpose: "Template only. This file does not claim that any external run has occurred."

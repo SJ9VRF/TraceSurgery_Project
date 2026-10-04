@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "run_id": "deterministic_run_id",
+  "study_id": "frozen_study_id",
+  "task_id": "benchmark_task_id",
+  "model_id": "model_a",
+  "model_revision": "exact_revision_or_dated_endpoint",
+  "environment_id": "real_environment_id",
+  "benchmark": "benchmark_name",
+  "benchmark_version": "exact_revision",
+  "seed": 0,
+  "success": false,
+  "source": "external_execution",
+  "trace_path": "path/to/raw_trace.json",
+  "manifest_path": "path/to/manifest.json",
+  "manifest_sha256": "sha256",
+  "grader_version": "grader_revision",
+  "replay_admissible": true,
+  "human_audited": false,
+  "metadata": {}
+}

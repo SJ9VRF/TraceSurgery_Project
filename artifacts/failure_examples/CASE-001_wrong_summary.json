@@ -1,0 +1,11 @@
+{
+  "case_id": "CASE-001",
+  "task_id": "spreadsheet_formula_001",
+  "expected_summary": 42,
+  "observed_summary": 41,
+  "source_failure": "recorded action writes spreadsheet.summary=41 then finishes",
+  "checkpoint_0_finding": "action_patch and suffix_replan recover; state_patch does not",
+  "checkpoint_1_finding": "state_patch recovers; action_patch and suffix_replan do not",
+  "interpretation": "The recoverable mechanism changes after the incorrect action becomes persistent state.",
+  "evidence": "runs/demo_5min.json"
+}

@@ -1,0 +1,45 @@
+{
+  "task_id": "spreadsheet_formula_001",
+  "source_trial_id": "38451a89-0803-4408-84a2-8576ecfc0e6d",
+  "intervention_step": 1,
+  "kind": "state_patch",
+  "success": true,
+  "baseline_success": false,
+  "outcome_gain": 1,
+  "final_state": {
+    "spreadsheet": {
+      "summary": 42,
+      "raw": [
+        10,
+        12,
+        20
+      ]
+    },
+    "events": [
+      {
+        "type": "action",
+        "tool": "set",
+        "args": {
+          "path": "spreadsheet.summary",
+          "value": 42
+        },
+        "valid": true
+      },
+      {
+        "type": "action",
+        "tool": "finish",
+        "args": {},
+        "valid": true
+      }
+    ]
+  },
+  "n_replayed_actions": 1,
+  "metadata": {
+    "checkpoint_source": "oracle_pre_state"
+  },
+  "source_checkpoint_hash": "07cc266db5893c44d17b4650829973d86bafe6c66145add71159f950ab5343b7",
+  "continuation_hash": "2a7ef88e4783fb83ce989566bc90c07ebd527b168994e5e2aea3bd4e7cea2e1d",
+  "final_state_hash": "17585db6836ea507605f589a7ecf64da1ec839a30d30e31f040621af8047a707",
+  "replay_matches_source": null,
+  "causally_usable": true
+}

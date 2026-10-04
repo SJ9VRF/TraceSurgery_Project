@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="365" viewBox="0 0 420 365">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#111827}.h{font-weight:700}.s{font-size:13px}.c{font-size:14px;font-weight:700}</style>
+<text x="16" y="28" class="h">Local counterfactual outcome matrix</text>
+<text x="16" y="50" class="s">Green = recovery, gray = failure; deterministic demo only</text>
+<text x="232.5" y="75" text-anchor="middle" class="h s">checkpoint 0</text>
+<text x="337.5" y="75" text-anchor="middle" class="h s">checkpoint 1</text>
+<text x="16" y="117" class="s">no intervention</text>
+<rect x="180" y="85" width="97" height="42" rx="8" fill="#f3f4f6" stroke="#d1d5db"/>
+<text x="228.5" y="111" text-anchor="middle" class="c">FAIL</text>
+<rect x="285" y="85" width="97" height="42" rx="8" fill="#f3f4f6" stroke="#d1d5db"/>
+<text x="333.5" y="111" text-anchor="middle" class="c">FAIL</text>
+<text x="16" y="172" class="s">action patch</text>
+<rect x="180" y="140" width="97" height="42" rx="8" fill="#dcfce7" stroke="#d1d5db"/>
+<text x="228.5" y="166" text-anchor="middle" class="c">RECOVER</text>
+<rect x="285" y="140" width="97" height="42" rx="8" fill="#f3f4f6" stroke="#d1d5db"/>
+<text x="333.5" y="166" text-anchor="middle" class="c">FAIL</text>
+<text x="16" y="227" class="s">state patch</text>
+<rect x="180" y="195" width="97" height="42" rx="8" fill="#f3f4f6" stroke="#d1d5db"/>
+<text x="228.5" y="221" text-anchor="middle" class="c">FAIL</text>
+<rect x="285" y="195" width="97" height="42" rx="8" fill="#dcfce7" stroke="#d1d5db"/>
+<text x="333.5" y="221" text-anchor="middle" class="c">RECOVER</text>
+<text x="16" y="282" class="s">suffix replan</text>
+<rect x="180" y="250" width="97" height="42" rx="8" fill="#dcfce7" stroke="#d1d5db"/>
+<text x="228.5" y="276" text-anchor="middle" class="c">RECOVER</text>
+<rect x="285" y="250" width="97" height="42" rx="8" fill="#f3f4f6" stroke="#d1d5db"/>
+<text x="333.5" y="276" text-anchor="middle" class="c">FAIL</text>
+</svg>

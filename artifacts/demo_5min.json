@@ -1,0 +1,414 @@
+{
+  "task_id": "spreadsheet_formula_001",
+  "source_trial_id": "38451a89-0803-4408-84a2-8576ecfc0e6d",
+  "branches": [
+    {
+      "task_id": "spreadsheet_formula_001",
+      "source_trial_id": "38451a89-0803-4408-84a2-8576ecfc0e6d",
+      "intervention_step": 0,
+      "kind": "no_intervention",
+      "success": false,
+      "baseline_success": false,
+      "outcome_gain": 0,
+      "final_state": {
+        "spreadsheet": {
+          "summary": 41,
+          "raw": [
+            10,
+            12,
+            20
+          ]
+        },
+        "events": [
+          {
+            "type": "action",
+            "tool": "set",
+            "args": {
+              "path": "spreadsheet.summary",
+              "value": 41
+            },
+            "valid": true
+          },
+          {
+            "type": "action",
+            "tool": "finish",
+            "args": {},
+            "valid": true
+          }
+        ]
+      },
+      "n_replayed_actions": 2,
+      "metadata": {
+        "control": "replay_same_checkpoint_and_suffix"
+      },
+      "source_checkpoint_hash": "02471c4af61edf97762ce565fafaf9d644bd2cb4212ddde474bdb252bcf6687f",
+      "continuation_hash": "cf17bc3d7376930be35004beaf7a69256fb30cd38b96e94b66b344be2fc58964",
+      "final_state_hash": "e780bc7d944339eea0520fef0a0d08df6a9c6c265cc037e25d9d9df34288a809",
+      "replay_matches_source": true,
+      "causally_usable": true
+    },
+    {
+      "task_id": "spreadsheet_formula_001",
+      "source_trial_id": "38451a89-0803-4408-84a2-8576ecfc0e6d",
+      "intervention_step": 0,
+      "kind": "action_patch",
+      "success": true,
+      "baseline_success": false,
+      "outcome_gain": 1,
+      "final_state": {
+        "spreadsheet": {
+          "summary": 42,
+          "raw": [
+            10,
+            12,
+            20
+          ]
+        },
+        "events": [
+          {
+            "type": "action",
+            "tool": "set",
+            "args": {
+              "path": "spreadsheet.summary",
+              "value": 42
+            },
+            "valid": true
+          },
+          {
+            "type": "action",
+            "tool": "finish",
+            "args": {},
+            "valid": true
+          }
+        ]
+      },
+      "n_replayed_actions": 2,
+      "metadata": {
+        "patched_action": {
+          "tool": "set",
+          "args": {
+            "path": "spreadsheet.summary",
+            "value": 42
+          },
+          "rationale": null,
+          "expected_state_after": {},
+          "belief_state": {},
+          "completion_claim": false,
+          "confidence": null
+        }
+      },
+      "source_checkpoint_hash": "02471c4af61edf97762ce565fafaf9d644bd2cb4212ddde474bdb252bcf6687f",
+      "continuation_hash": "bf7cf5ccdf78e0af8f0bd9c9e161af30e45ae67a7d87fdf557e44f41c061b6f8",
+      "final_state_hash": "17585db6836ea507605f589a7ecf64da1ec839a30d30e31f040621af8047a707",
+      "replay_matches_source": null,
+      "causally_usable": true
+    },
+    {
+      "task_id": "spreadsheet_formula_001",
+      "source_trial_id": "38451a89-0803-4408-84a2-8576ecfc0e6d",
+      "intervention_step": 0,
+      "kind": "state_patch",
+      "success": false,
+      "baseline_success": false,
+      "outcome_gain": 0,
+      "final_state": {
+        "spreadsheet": {
+          "summary": 41,
+          "raw": [
+            10,
+            12,
+            20
+          ]
+        },
+        "events": [
+          {
+            "type": "action",
+            "tool": "set",
+            "args": {
+              "path": "spreadsheet.summary",
+              "value": 41
+            },
+            "valid": true
+          },
+          {
+            "type": "action",
+            "tool": "finish",
+            "args": {},
+            "valid": true
+          }
+        ]
+      },
+      "n_replayed_actions": 2,
+      "metadata": {
+        "checkpoint_source": "oracle_pre_state"
+      },
+      "source_checkpoint_hash": "02471c4af61edf97762ce565fafaf9d644bd2cb4212ddde474bdb252bcf6687f",
+      "continuation_hash": "cf17bc3d7376930be35004beaf7a69256fb30cd38b96e94b66b344be2fc58964",
+      "final_state_hash": "e780bc7d944339eea0520fef0a0d08df6a9c6c265cc037e25d9d9df34288a809",
+      "replay_matches_source": null,
+      "causally_usable": true
+    },
+    {
+      "task_id": "spreadsheet_formula_001",
+      "source_trial_id": "38451a89-0803-4408-84a2-8576ecfc0e6d",
+      "intervention_step": 0,
+      "kind": "suffix_replan",
+      "success": true,
+      "baseline_success": false,
+      "outcome_gain": 1,
+      "final_state": {
+        "spreadsheet": {
+          "summary": 42,
+          "raw": [
+            10,
+            12,
+            20
+          ]
+        },
+        "events": [
+          {
+            "type": "action",
+            "tool": "set",
+            "args": {
+              "path": "spreadsheet.summary",
+              "value": 42
+            },
+            "valid": true
+          },
+          {
+            "type": "action",
+            "tool": "finish",
+            "args": {},
+            "valid": true
+          }
+        ]
+      },
+      "n_replayed_actions": 2,
+      "metadata": {
+        "continuation_source": "oracle_suffix"
+      },
+      "source_checkpoint_hash": "02471c4af61edf97762ce565fafaf9d644bd2cb4212ddde474bdb252bcf6687f",
+      "continuation_hash": "bf7cf5ccdf78e0af8f0bd9c9e161af30e45ae67a7d87fdf557e44f41c061b6f8",
+      "final_state_hash": "17585db6836ea507605f589a7ecf64da1ec839a30d30e31f040621af8047a707",
+      "replay_matches_source": null,
+      "causally_usable": true
+    },
+    {
+      "task_id": "spreadsheet_formula_001",
+      "source_trial_id": "38451a89-0803-4408-84a2-8576ecfc0e6d",
+      "intervention_step": 1,
+      "kind": "no_intervention",
+      "success": false,
+      "baseline_success": false,
+      "outcome_gain": 0,
+      "final_state": {
+        "spreadsheet": {
+          "summary": 41,
+          "raw": [
+            10,
+            12,
+            20
+          ]
+        },
+        "events": [
+          {
+            "type": "action",
+            "tool": "set",
+            "args": {
+              "path": "spreadsheet.summary",
+              "value": 41
+            },
+            "valid": true
+          },
+          {
+            "type": "action",
+            "tool": "finish",
+            "args": {},
+            "valid": true
+          }
+        ]
+      },
+      "n_replayed_actions": 1,
+      "metadata": {
+        "control": "replay_same_checkpoint_and_suffix"
+      },
+      "source_checkpoint_hash": "a1a37cfb7d568ddfb22b1fa637e6e48986815997dd450f4177a5f8f8e7048398",
+      "continuation_hash": "2a7ef88e4783fb83ce989566bc90c07ebd527b168994e5e2aea3bd4e7cea2e1d",
+      "final_state_hash": "e780bc7d944339eea0520fef0a0d08df6a9c6c265cc037e25d9d9df34288a809",
+      "replay_matches_source": true,
+      "causally_usable": true
+    },
+    {
+      "task_id": "spreadsheet_formula_001",
+      "source_trial_id": "38451a89-0803-4408-84a2-8576ecfc0e6d",
+      "intervention_step": 1,
+      "kind": "action_patch",
+      "success": false,
+      "baseline_success": false,
+      "outcome_gain": 0,
+      "final_state": {
+        "spreadsheet": {
+          "summary": 41,
+          "raw": [
+            10,
+            12,
+            20
+          ]
+        },
+        "events": [
+          {
+            "type": "action",
+            "tool": "set",
+            "args": {
+              "path": "spreadsheet.summary",
+              "value": 41
+            },
+            "valid": true
+          },
+          {
+            "type": "action",
+            "tool": "finish",
+            "args": {},
+            "valid": true
+          }
+        ]
+      },
+      "n_replayed_actions": 1,
+      "metadata": {
+        "patched_action": {
+          "tool": "finish",
+          "args": {},
+          "rationale": null,
+          "expected_state_after": {},
+          "belief_state": {},
+          "completion_claim": false,
+          "confidence": null
+        }
+      },
+      "source_checkpoint_hash": "a1a37cfb7d568ddfb22b1fa637e6e48986815997dd450f4177a5f8f8e7048398",
+      "continuation_hash": "2a7ef88e4783fb83ce989566bc90c07ebd527b168994e5e2aea3bd4e7cea2e1d",
+      "final_state_hash": "e780bc7d944339eea0520fef0a0d08df6a9c6c265cc037e25d9d9df34288a809",
+      "replay_matches_source": null,
+      "causally_usable": true
+    },
+    {
+      "task_id": "spreadsheet_formula_001",
+      "source_trial_id": "38451a89-0803-4408-84a2-8576ecfc0e6d",
+      "intervention_step": 1,
+      "kind": "state_patch",
+      "success": true,
+      "baseline_success": false,
+      "outcome_gain": 1,
+      "final_state": {
+        "spreadsheet": {
+          "summary": 42,
+          "raw": [
+            10,
+            12,
+            20
+          ]
+        },
+        "events": [
+          {
+            "type": "action",
+            "tool": "set",
+            "args": {
+              "path": "spreadsheet.summary",
+              "value": 42
+            },
+            "valid": true
+          },
+          {
+            "type": "action",
+            "tool": "finish",
+            "args": {},
+            "valid": true
+          }
+        ]
+      },
+      "n_replayed_actions": 1,
+      "metadata": {
+        "checkpoint_source": "oracle_pre_state"
+      },
+      "source_checkpoint_hash": "07cc266db5893c44d17b4650829973d86bafe6c66145add71159f950ab5343b7",
+      "continuation_hash": "2a7ef88e4783fb83ce989566bc90c07ebd527b168994e5e2aea3bd4e7cea2e1d",
+      "final_state_hash": "17585db6836ea507605f589a7ecf64da1ec839a30d30e31f040621af8047a707",
+      "replay_matches_source": null,
+      "causally_usable": true
+    },
+    {
+      "task_id": "spreadsheet_formula_001",
+      "source_trial_id": "38451a89-0803-4408-84a2-8576ecfc0e6d",
+      "intervention_step": 1,
+      "kind": "suffix_replan",
+      "success": false,
+      "baseline_success": false,
+      "outcome_gain": 0,
+      "final_state": {
+        "spreadsheet": {
+          "summary": 41,
+          "raw": [
+            10,
+            12,
+            20
+          ]
+        },
+        "events": [
+          {
+            "type": "action",
+            "tool": "set",
+            "args": {
+              "path": "spreadsheet.summary",
+              "value": 41
+            },
+            "valid": true
+          },
+          {
+            "type": "action",
+            "tool": "finish",
+            "args": {},
+            "valid": true
+          }
+        ]
+      },
+      "n_replayed_actions": 1,
+      "metadata": {
+        "continuation_source": "oracle_suffix"
+      },
+      "source_checkpoint_hash": "a1a37cfb7d568ddfb22b1fa637e6e48986815997dd450f4177a5f8f8e7048398",
+      "continuation_hash": "2a7ef88e4783fb83ce989566bc90c07ebd527b168994e5e2aea3bd4e7cea2e1d",
+      "final_state_hash": "e780bc7d944339eea0520fef0a0d08df6a9c6c265cc037e25d9d9df34288a809",
+      "replay_matches_source": null,
+      "causally_usable": true
+    }
+  ],
+  "control_fidelity_by_step": {
+    "0": true,
+    "1": true
+  },
+  "admissible_steps": [
+    0,
+    1
+  ],
+  "summary": {
+    "no_intervention": {
+      "last_recoverable_step": null,
+      "recovery_auc": 0.0
+    },
+    "action_patch": {
+      "last_recoverable_step": 0,
+      "recovery_auc": 0.5
+    },
+    "state_patch": {
+      "last_recoverable_step": 1,
+      "recovery_auc": 0.5
+    },
+    "suffix_replan": {
+      "last_recoverable_step": 0,
+      "recovery_auc": 0.5
+    }
+  },
+  "successful_single_action_repairs": [
+    0
+  ]
+}

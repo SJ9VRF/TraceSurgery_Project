@@ -1,0 +1,45 @@
+{
+  "task_id": "spreadsheet_formula_001",
+  "source_trial_id": "38451a89-0803-4408-84a2-8576ecfc0e6d",
+  "intervention_step": 0,
+  "kind": "suffix_replan",
+  "success": true,
+  "baseline_success": false,
+  "outcome_gain": 1,
+  "final_state": {
+    "spreadsheet": {
+      "summary": 42,
+      "raw": [
+        10,
+        12,
+        20
+      ]
+    },
+    "events": [
+      {
+        "type": "action",
+        "tool": "set",
+        "args": {
+          "path": "spreadsheet.summary",
+          "value": 42
+        },
+        "valid": true
+      },
+      {
+        "type": "action",
+        "tool": "finish",
+        "args": {},
+        "valid": true
+      }
+    ]
+  },
+  "n_replayed_actions": 2,
+  "metadata": {
+    "continuation_source": "oracle_suffix"
+  },
+  "source_checkpoint_hash": "02471c4af61edf97762ce565fafaf9d644bd2cb4212ddde474bdb252bcf6687f",
+  "continuation_hash": "bf7cf5ccdf78e0af8f0bd9c9e161af30e45ae67a7d87fdf557e44f41c061b6f8",
+  "final_state_hash": "17585db6836ea507605f589a7ecf64da1ec839a30d30e31f040621af8047a707",
+  "replay_matches_source": null,
+  "causally_usable": true
+}
