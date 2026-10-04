@@ -1,0 +1,36 @@
+{
+  "name": "TraceSurgery",
+  "author": "Aura Yavary",
+  "project_version": "1.0.3",
+  "site_release": "1.4.0",
+  "tagline": "Don\u2019t guess what caused a long-horizon agent failure. Intervene, replay, and test it.",
+  "domain": [
+    "computer-use agents",
+    "causal evaluation",
+    "agent recovery",
+    "long-horizon agents"
+  ],
+  "verified_local_evidence": {
+    "tests": "48/48",
+    "package_coverage_percent": 92.75,
+    "oracle_validation_tasks": "500/500",
+    "replay_faithful_controls": "2/2",
+    "outcome_changing_interventions": 3
+  },
+  "external_frontier_model_results": "pending",
+  "claim_policy": "No SOTA or frontier-model performance claims without external evidence passing the repository evidence gate.",
+  "evidence_layer": {
+    "documented_investigations": 9,
+    "failed_repair_attempts": 3,
+    "major_design_decisions": 8,
+    "unexpected_findings": 4,
+    "raw_counterfactual_branches": 8,
+    "git_incremental_commits_after_imported_baseline": 11,
+    "claim_ledger_claims": 9,
+    "claim_ledger_verified": 9
+  },
+  "software_quality": {
+    "tests_passed": 48,
+    "coverage_percent": 92.75
+  }
+}

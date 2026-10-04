@@ -1,0 +1,59 @@
+{
+  "project": "TraceSurgery",
+  "version": "1.0.3",
+  "author": "Aura Yavary",
+  "status": "PASS",
+  "scope": "software, causal-mechanics, evidence-layer, claim-traceability, and release validation; no frontier-model scientific performance claim",
+  "tests": {
+    "passed": 48,
+    "failed": 0
+  },
+  "package_statement_coverage_percent": 92.75,
+  "coverage_gate_percent": 90,
+  "validation_suite": {
+    "tasks": 500,
+    "oracle_passed": 500,
+    "duplicate_ids": 0,
+    "lint_errors": 0,
+    "lint_warnings": 0
+  },
+  "evidence_layer": {
+    "documented_investigations": 9,
+    "failed_repair_attempts": 3,
+    "major_design_decisions": 8,
+    "unexpected_findings": 4,
+    "raw_counterfactual_branches": 8
+  },
+  "claim_ledger": {
+    "claims": 9,
+    "claims_verified": 9,
+    "published_eval_table_matches_raw": true,
+    "verifier": "scripts/verify_evidence_layer.py"
+  },
+  "git_history": {
+    "policy": "no reconstruction/backdating",
+    "baseline": "verified v1.0.1 archive",
+    "incremental_commits_after_baseline": 17
+  },
+  "paper": {
+    "pages": 4,
+    "version": "1.0.3",
+    "render_verified": true
+  },
+  "wheel": {
+    "filename": "tracesurgery-1.0.3-py3-none-any.whl",
+    "built": true
+  },
+  "external_frontier_study_complete": false,
+  "claim_policy": "Local validation and deterministic demo results are not eligible as frontier-model performance claims.",
+  "clean_room_archive_verification": {
+    "status": "PASS",
+    "tests_passed": 48,
+    "claim_ledger_checks_passed": 10,
+    "tracked_checksums_verified": 658,
+    "release_audit_errors": 0,
+    "release_audit_warnings": 0,
+    "git_bundle_complete_history": true,
+    "note": "Final v1.0.3 archive was rebuilt after this report and re-verified before delivery."
+  }
+}

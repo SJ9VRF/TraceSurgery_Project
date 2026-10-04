@@ -1,0 +1,68 @@
+{
+  "project": "TraceSurgery",
+  "site_release": "1.4.0",
+  "core_release": {
+    "tests_passed": 48,
+    "coverage_percent": 92.75,
+    "validation_tasks_oracle_valid": 500,
+    "task_lint_errors": 0,
+    "task_lint_warnings": 0,
+    "claim_ledger_claims": 9,
+    "claim_ledger_verified": 9,
+    "evidence_checks_total": 10,
+    "core_checksums_verified": 658,
+    "release_audit_errors": 0,
+    "release_audit_warnings": 0,
+    "git_bundle_complete_history": true,
+    "incremental_commits_after_imported_v1_0_1_baseline": 17
+  },
+  "author": "Aura Yavary",
+  "passed": true,
+  "static_site": {
+    "html_files": 4,
+    "relative_refs_checked": 68,
+    "missing_files": 0,
+    "broken_anchors": 0,
+    "stale_version_refs": 0,
+    "json_parse_errors": 0,
+    "inline_js_syntax": "PASS"
+  },
+  "media": {
+    "mp4": {
+      "codec": "h264",
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "duration_seconds": 9.0
+    },
+    "webm": {
+      "codec": "vp9",
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "duration_seconds": 9.0
+    }
+  },
+  "paper": {
+    "technical_report_pages": 4,
+    "version": "1.0.3",
+    "render_verified": true
+  },
+  "one_page_brief": {
+    "pages": 1,
+    "render_verified": true,
+    "title": "TraceSurgery \u2014 One-Page Research Brief",
+    "author": "Aura Yavary"
+  },
+  "browser_runtime_qa": {
+    "status": "not_repeated_in_this_pass",
+    "reason": "local browser navigation was blocked by runtime policy; static link/anchor/JS/media validation was used instead. Prior microsite browser interaction QA was not re-labeled as a current pass."
+  },
+  "scientific_boundary": "No frontier-model performance, SOTA, or comparative superiority claim is introduced by this public-site release.",
+  "archive_verification": {
+    "status": "PASS",
+    "packaged_checksums_verified": 108,
+    "zip_reextracted": true,
+    "note": "QA file was then included in regenerated checksums and the final archive was re-verified."
+  }
+}
