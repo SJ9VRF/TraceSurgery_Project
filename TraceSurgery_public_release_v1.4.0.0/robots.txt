@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+# Add Sitemap: <canonical-base>/sitemap.xml after deployment.
