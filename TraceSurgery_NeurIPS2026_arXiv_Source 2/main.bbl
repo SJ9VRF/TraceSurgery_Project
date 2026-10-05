@@ -1,0 +1,100 @@
+\begin{thebibliography}{11}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Barke et~al.(2026)Barke, Goyal, Khare, Singh, Nath, and
+  Bansal]{barke2026agentrx}
+Shraddha Barke, Arnav Goyal, Alind Khare, Avaljot Singh, Suman Nath, and Chetan
+  Bansal.
+\newblock Agentrx: Diagnosing ai agent failures from execution trajectories.
+\newblock \emph{arXiv preprint arXiv:2602.02475}, 2026.
+
+\bibitem[Bonagiri et~al.(2026)Bonagiri, Borkar, Anderias, Rafatirad, and
+  Homayoun]{bonagiri2026causalflow}
+Akash Bonagiri, Devang Borkar, Gerard~Janno Anderias, Setareh Rafatirad, and
+  Houman Homayoun.
+\newblock Causalflow: Causal attribution and counterfactual repair for llm
+  agent failures.
+\newblock \emph{arXiv preprint arXiv:2605.25338}, 2026.
+
+\bibitem[Bu et~al.(2026)Bu, Liu, Chen, Jiang, Li, Duan, Jiang, Hu, Yang, and
+  Zhang]{bu2026rots}
+Tianpeng Bu, Xin Liu, Qihua Chen, Hao Jiang, Shurui Li, Hongtao Duan, Lu~Jiang,
+  Lulu Hu, Bin Yang, and Minying Zhang.
+\newblock Recovering policy-induced errors: Benchmarking and trajectory
+  synthesis for robust gui agents.
+\newblock In \emph{Proceedings of the 43rd International Conference on Machine
+  Learning}, volume 306 of \emph{Proceedings of Machine Learning Research},
+  pages 10111--10146, 2026.
+
+\bibitem[de~Chezelles et~al.(2025)de~Chezelles, Gasse, Lacoste, Caccia, Drouin,
+  Boisvert, Thakkar, Marty, Assouel, Shayegan, Jang, L{\`u}, Yoran, Kong, Xu,
+  Reddy, Neubig, Cappart, Salakhutdinov, and
+  Chapados]{dechezelles2025browsergym}
+Thibault Le~Sellier de~Chezelles, Maxime Gasse, Alexandre Lacoste, Massimo
+  Caccia, Alexandre Drouin, L{\'e}o Boisvert, Megh Thakkar, Tom Marty, Rim
+  Assouel, Sahar~Omidi Shayegan, Lawrence~Keunho Jang, Xing~Han L{\`u}, Ori
+  Yoran, Dehan Kong, Frank~F. Xu, Siva Reddy, Graham Neubig, Quentin Cappart,
+  Russ Salakhutdinov, and Nicolas Chapados.
+\newblock The browsergym ecosystem for web agent research.
+\newblock \emph{Transactions on Machine Learning Research}, 2025.
+
+\bibitem[Fu et~al.(2026)Fu, Yang, Zhang, Wei, Gan, Liu, Zhao, and
+  Rong]{fu2026guicc}
+Lin Fu, Zheyuan Yang, Tianhui Zhang, Jinbiao Wei, Guo Gan, Boxu Liu, Yilun
+  Zhao, and Yu~Rong.
+\newblock Gui-cc: Benchmarking contextual consistency of gui world models as
+  agent environments.
+\newblock \emph{arXiv preprint arXiv:2609.00048}, 2026.
+
+\bibitem[Li et~al.(2026)Li, Song, Yao, and Li]{li2026mrfr}
+Bingjie Li, Yumeng Song, Zhongming Yao, and Tianyi Li.
+\newblock Localizing emergent failures in agentic ai: Recovering minimal repair
+  families via counterfactual replay.
+\newblock \emph{arXiv preprint arXiv:2608.29228}, 2026.
+
+\bibitem[Xie et~al.(2024)Xie, Zhang, Chen, Li, Zhao, Cao, Hua, Cheng, Shin,
+  Lei, Liu, Xu, Zhou, Savarese, Xiong, Zhong, and Yu]{xie2024osworld}
+Tianbao Xie, Danyang Zhang, Jixuan Chen, Xiaochuan Li, Siheng Zhao, Ruisheng
+  Cao, Toh~Jing Hua, Zhoujun Cheng, Dongchan Shin, Fangyu Lei, Yitao Liu,
+  Yiheng Xu, Shuyan Zhou, Silvio Savarese, Caiming Xiong, Victor Zhong, and Tao
+  Yu.
+\newblock Osworld: Benchmarking multimodal agents for open-ended tasks in real
+  computer environments.
+\newblock \emph{arXiv preprint arXiv:2404.07972}, 2024.
+
+\bibitem[Yuan et~al.(2026)Yuan, Zhou, Xiong, Wu, Sun, Song, Cui, Wang, Wu, Li,
+  et~al.]{yuan2026osworld2}
+Mengqi Yuan, Zilong Zhou, Xinzhuang Xiong, Weiming Wu, Jiayang Sun, Jiamin
+  Song, Kaiqian Cui, Bowen Wang, Haoyuan Wu, Yitong Li, et~al.
+\newblock Osworld2.0: Benchmarking computer use agents on long-horizon
+  real-world tasks.
+\newblock \emph{arXiv preprint arXiv:2606.29537}, 2026.
+
+\bibitem[Zhang et~al.(2026)Zhang, Zhu, Liu, Chen, Ma, Liu, Zhang, Li, Tang, Ji,
+  and You]{zhang2026cuadebug}
+Weijia Zhang, Kunlun Zhu, Zeyi Liu, Yinting Chen, Tianyi Ma, Jiateng Liu,
+  Jiaxun Zhang, Bingxuan Li, Xiangru Tang, Heng Ji, and Jiaxuan You.
+\newblock Cuadebug: Diagnosing and repairing computer-use agent failures.
+\newblock \emph{arXiv preprint arXiv:2608.02643}, 2026.
+
+\bibitem[Zhou et~al.(2023)Zhou, Xu, Zhu, Zhou, Lo, Sridhar, Cheng, Ou, Bisk,
+  Fried, Alon, and Neubig]{zhou2023webarena}
+Shuyan Zhou, Frank~F. Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar,
+  Xianyi Cheng, Tianyue Ou, Yonatan Bisk, Daniel Fried, Uri Alon, and Graham
+  Neubig.
+\newblock Webarena: A realistic web environment for building autonomous agents.
+\newblock \emph{arXiv preprint arXiv:2307.13854}, 2023.
+
+\bibitem[Zhu et~al.(2025)Zhu, Liu, Li, Tian, Yang, Zhang, Han, Xie, Cui, Zhang,
+  Ma, Yu, Ramesh, Wu, Liu, Lu, Zou, and You]{zhu2025agentdebug}
+Kunlun Zhu, Zijia Liu, Bingxuan Li, Muxin Tian, Yingxuan Yang, Jiaxun Zhang,
+  Pengrui Han, Qipeng Xie, Fuyang Cui, Weijia Zhang, Xiaoteng Ma, Xiaodong Yu,
+  Gowtham Ramesh, Jialian Wu, Zicheng Liu, Pan Lu, James Zou, and Jiaxuan You.
+\newblock Where llm agents fail and how they can learn from failures.
+\newblock \emph{arXiv preprint arXiv:2509.25370}, 2025.
+
+\end{thebibliography}
