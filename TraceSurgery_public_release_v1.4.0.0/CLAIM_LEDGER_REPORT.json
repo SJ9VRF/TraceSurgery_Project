@@ -1,0 +1,39 @@
+{
+  "checks": {
+    "TS-C001": true,
+    "TS-C002": true,
+    "TS-C003": true,
+    "TS-C004": true,
+    "TS-C005": true,
+    "TS-C006": true,
+    "TS-C007": true,
+    "TS-C008": true,
+    "TS-C009": true,
+    "published_eval_table_matches_raw": true
+  },
+  "computed": {
+    "controls": 2,
+    "decision_count": 8,
+    "effective_interventions": 3,
+    "external_pending": true,
+    "failed_interventions": 3,
+    "faithful_controls": 2,
+    "journal_local_causal": 8,
+    "journal_rows": 9,
+    "journal_software_validation": 1,
+    "step0": {
+      "action_patch": true,
+      "no_intervention": false,
+      "state_patch": false,
+      "suffix_replan": true
+    },
+    "step1": {
+      "action_patch": false,
+      "no_intervention": false,
+      "state_patch": true,
+      "suffix_replan": false
+    },
+    "unexpected_finding_count": 4
+  },
+  "ok": true
+}
