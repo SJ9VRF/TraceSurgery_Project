@@ -1,0 +1,73 @@
+% Minimal NeurIPS 2026 preprint-compatible style for arXiv rendering.
+% Layout and preprint behavior follow the official NeurIPS 2026 author kit.
+% For conference submission, replace this file with the official neurips_2026.sty
+% from https://neurips.cc/Conferences/2026/CallForPapers .
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{neurips_2026}[2026-10-04 local preprint-compatible NeurIPS 2026 style]
+\newif\if@preprint\@preprintfalse
+\newif\if@neuripsfinal\@neuripsfinalfalse
+\newif\if@anonymous\@anonymoustrue
+\DeclareOption{preprint}{\@preprinttrue\@anonymousfalse}
+\DeclareOption{final}{\@neuripsfinaltrue\@anonymousfalse}
+\DeclareOption{nonanonymous}{\@anonymousfalse}
+\DeclareOption{main}{}
+\DeclareOption{nonatbib}{}
+\ProcessOptions\relax
+\renewcommand{\rmdefault}{ptm}
+\renewcommand{\sfdefault}{phv}
+\RequirePackage{natbib}
+\RequirePackage[verbose=true,letterpaper]{geometry}
+\AtBeginDocument{\newgeometry{textheight=9in,textwidth=5.5in,top=1in,headheight=12pt,headsep=25pt,footskip=30pt}}
+\widowpenalty=10000
+\clubpenalty=10000
+\flushbottom
+\sloppy
+\renewcommand{\normalsize}{\@setfontsize\normalsize\@xpt\@xipt}
+\normalsize
+\renewcommand{\small}{\@setfontsize\small\@ixpt\@xpt}
+\renewcommand{\footnotesize}{\fontsize{8pt}{9.5pt}\selectfont}
+\renewcommand{\scriptsize}{\fontsize{7pt}{8pt}\selectfont}
+\renewcommand{\tiny}{\fontsize{6pt}{7pt}\selectfont}
+\renewcommand{\large}{\@setfontsize\large\@xiipt{14}}
+\renewcommand{\Large}{\@setfontsize\Large\@xivpt{16}}
+\renewcommand{\LARGE}{\@setfontsize\LARGE\@xviipt{20}}
+\providecommand{\section}{}
+\renewcommand{\section}{\@startsection{section}{1}{\z@}{-2.0ex \@plus -0.5ex \@minus -0.2ex}{1.5ex \@plus 0.3ex \@minus 0.2ex}{\large\bf\raggedright}}
+\providecommand{\subsection}{}
+\renewcommand{\subsection}{\@startsection{subsection}{2}{\z@}{-1.8ex \@plus -0.5ex \@minus -0.2ex}{0.8ex \@plus 0.2ex}{\normalsize\bf\raggedright}}
+\providecommand{\subsubsection}{}
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{\z@}{-1.5ex \@plus -0.5ex \@minus -0.2ex}{0.5ex \@plus 0.2ex}{\normalsize\bf\raggedright}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5.5pt}
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\bottomfraction}{0.4}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.7}
+\newcommand{\@toptitlebar}{\hrule height 4pt\vskip 0.25in\vskip-\parskip}
+\newcommand{\@bottomtitlebar}{\vskip 0.29in\vskip-\parskip\hrule height 1pt\vskip 0.09in}
+\providecommand{\@maketitle}{}
+\renewcommand{\@maketitle}{%
+\vbox{\hsize\textwidth\linewidth\hsize\vskip0.1in\@toptitlebar\centering{\LARGE\bf \@title\par}\@bottomtitlebar
+\if@anonymous
+\begin{tabular}[t]{c}\bf\rule{0pt}{24pt}Anonymous Author(s)\\Affiliation\\Address\\\texttt{email}\end{tabular}%
+\else
+\def\And{\end{tabular}\hfil\linebreak[0]\hfil\begin{tabular}[t]{c}\bf\rule{0pt}{24pt}\ignorespaces}%
+\def\AND{\end{tabular}\hfil\linebreak[4]\hfil\begin{tabular}[t]{c}\bf\rule{0pt}{24pt}\ignorespaces}%
+\begin{tabular}[t]{c}\bf\rule{0pt}{24pt}\@author\end{tabular}%
+\fi\vskip0.3in\@minus0.1in}}
+\providecommand{\maketitle}{}
+\renewcommand{\maketitle}{\par\begingroup\renewcommand{\thefootnote}{\fnsymbol{footnote}}\thispagestyle{empty}\@maketitle\@thanks\@notice\endgroup\let\maketitle\relax\let\thanks\relax}
+\newcommand{\ftype@noticebox}{8}
+\newcommand{\@notice}{\enlargethispage{2\baselineskip}\@float{noticebox}[b]\footnotesize\@noticestring\end@float}
+\if@preprint
+\newcommand{\@noticestring}{Preprint. Work in progress.}
+\else\if@neuripsfinal
+\newcommand{\@noticestring}{40th Conference on Neural Information Processing Systems (NeurIPS 2026).}
+\else
+\newcommand{\@noticestring}{Submitted to 40th Conference on Neural Information Processing Systems (NeurIPS 2026). Do not distribute.}
+\fi\fi
+\renewenvironment{abstract}{\vskip0.075in\centerline{\large\bf Abstract}\vspace{0.5ex}\begin{quote}}{\par\end{quote}\vskip1ex}
+\newcommand{\answerYes}[1][]{\textcolor{blue}{[Yes]#1}}
+\newcommand{\answerNo}[1][]{\textcolor{orange}{[No]#1}}
+\newcommand{\answerNA}[1][]{\textcolor{gray}{[N/A]#1}}
+\endinput
