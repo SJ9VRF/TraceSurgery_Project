@@ -1,0 +1,41 @@
+{
+  "task_id": "spreadsheet_formula_001",
+  "n_checkpoints": 2,
+  "rows": [
+    {
+      "variant": "no_intervention",
+      "checkpoints": 2,
+      "recoveries": 0,
+      "recovery_rate": 0.0,
+      "mean_replayed_actions": 1.5,
+      "scope": "deterministic local demo"
+    },
+    {
+      "variant": "action_patch",
+      "checkpoints": 2,
+      "recoveries": 1,
+      "recovery_rate": 0.5,
+      "mean_replayed_actions": 1.5,
+      "scope": "deterministic local demo"
+    },
+    {
+      "variant": "state_patch",
+      "checkpoints": 2,
+      "recoveries": 1,
+      "recovery_rate": 0.5,
+      "mean_replayed_actions": 1.5,
+      "scope": "deterministic local demo"
+    },
+    {
+      "variant": "suffix_replan",
+      "checkpoints": 2,
+      "recoveries": 1,
+      "recovery_rate": 0.5,
+      "mean_replayed_actions": 1.5,
+      "scope": "deterministic local demo"
+    }
+  ],
+  "confidence_interval": null,
+  "ci_reason": "N=2 deterministic checkpoints; not a stochastic benchmark estimate",
+  "scientific_claim_eligible": false
+}

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "TraceSurgery: Counterfactual Interventions for Failure Causality and Recoverability in Computer-Use Agents"
+message: "If you use this software, please cite the project and accompanying technical report."
+type: software
+authors:
+  - family-names: Yavary
+    given-names: Aura
+version: 1.0.3
+date-released: 2026-09-25
+license: MIT

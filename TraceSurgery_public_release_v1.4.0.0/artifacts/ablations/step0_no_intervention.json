@@ -1,0 +1,45 @@
+{
+  "task_id": "spreadsheet_formula_001",
+  "source_trial_id": "38451a89-0803-4408-84a2-8576ecfc0e6d",
+  "intervention_step": 0,
+  "kind": "no_intervention",
+  "success": false,
+  "baseline_success": false,
+  "outcome_gain": 0,
+  "final_state": {
+    "spreadsheet": {
+      "summary": 41,
+      "raw": [
+        10,
+        12,
+        20
+      ]
+    },
+    "events": [
+      {
+        "type": "action",
+        "tool": "set",
+        "args": {
+          "path": "spreadsheet.summary",
+          "value": 41
+        },
+        "valid": true
+      },
+      {
+        "type": "action",
+        "tool": "finish",
+        "args": {},
+        "valid": true
+      }
+    ]
+  },
+  "n_replayed_actions": 2,
+  "metadata": {
+    "control": "replay_same_checkpoint_and_suffix"
+  },
+  "source_checkpoint_hash": "02471c4af61edf97762ce565fafaf9d644bd2cb4212ddde474bdb252bcf6687f",
+  "continuation_hash": "cf17bc3d7376930be35004beaf7a69256fb30cd38b96e94b66b344be2fc58964",
+  "final_state_hash": "e780bc7d944339eea0520fef0a0d08df6a9c6c265cc037e25d9d9df34288a809",
+  "replay_matches_source": true,
+  "causally_usable": true
+}

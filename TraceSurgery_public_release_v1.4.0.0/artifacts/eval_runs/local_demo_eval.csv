@@ -1,0 +1,5 @@
+variant,checkpoints,recoveries,recovery_rate,mean_replayed_actions,scope
+no_intervention,2,0,0.0,1.5,deterministic local demo
+action_patch,2,1,0.5,1.5,deterministic local demo
+state_patch,2,1,0.5,1.5,deterministic local demo
+suffix_replan,2,1,0.5,1.5,deterministic local demo

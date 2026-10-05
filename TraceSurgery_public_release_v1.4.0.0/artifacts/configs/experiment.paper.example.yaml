@@ -1,0 +1,30 @@
+experiment: validation_500
+suite: tracesurgery-paper-v1
+trials_per_task: 5
+max_steps: 100
+agent:
+  family: provider_adapter
+  observation:
+    screenshot: true
+    accessibility_tree: optional
+  explicit_verification: false
+models:
+  - MODEL_A
+  - MODEL_B
+  - MODEL_C
+conditions:
+  - natural
+  - perturbed
+  - perturbed_with_recovery_hint
+  - oracle_checkpoint
+logging:
+  screenshots: true
+  actions: true
+  observations: true
+  state_snapshots: true
+  token_usage: true
+  cost: true
+  latency: true
+statistics:
+  bootstrap_samples: 10000
+  confidence_level: 0.95
