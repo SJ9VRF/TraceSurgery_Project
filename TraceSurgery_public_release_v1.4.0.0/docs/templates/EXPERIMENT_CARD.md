@@ -1,0 +1,21 @@
+# Experiment card
+
+- Experiment ID:
+- Date:
+- Git commit:
+- Task-suite version:
+- Environment version:
+- Agent/harness version:
+- Model/provider:
+- Seeds / trials per task:
+- Max steps:
+- Observation mode:
+- Safety mode:
+- Intervention families:
+- Grader version:
+- Primary endpoint:
+- Preregistered exclusions:
+- Known deviations:
+- Output trace location:
+- Cost summary:
+- Notes:
